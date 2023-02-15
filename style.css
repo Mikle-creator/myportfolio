@@ -12,7 +12,10 @@ h1{
 
 .container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+
 }
 
 .block{
@@ -22,6 +25,7 @@ h1{
     position: relative;
     border: 5px solid #ee6c4d;
     border-radius: 50px;
+    margin-bottom: 1%;
 }
 
 .photo{
@@ -52,5 +56,19 @@ width: 100%;
     padding: 3px;
     border-radius: 20px;
     border: 2px solid #ee6c4d;
+}
+
+.flex-contaner{
+    margin: 0 auto;
+    display: flex;
+    box-sizing: border-box;
+    width: 1390px;
+    height: 1060px;
+    left: 78px;
+    top: 630px;
+    background-color: #e0fbfc;
+    border: 5px solid #FE9800;
+    border-radius: 50px;
+    text-align: center;
 }
 
