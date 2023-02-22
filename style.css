@@ -64,11 +64,94 @@ width: 100%;
     box-sizing: border-box;
     width: 1390px;
     height: 1060px;
-    left: 78px;
-    top: 630px;
-    background-color: #e0fbfc;
+    background-color: DodgerBlue;
     border: 5px solid #FE9800;
     border-radius: 50px;
-    text-align: center;
+    position: relative;
+
 }
+
+
+.blockLeft{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+min-width: 69%;
+min-height: 99%;
+}
+
+.blockRight{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+min-width: 28%;
+min-height: 99%;
+
+}
+
+
+.blockOne, .blockOneHeight, .blockHalf, .blockHeight{
+display: flex;
+justify-content: flex-start;
+background-color: #f1f1f1;
+border-radius: 50px;
+margin: 10px;
+overflow: hidden;
+}
+
+
+.blockOne{
+display: flex;
+min-width: 97%;
+height: 31%;
+}
+
+.blockOne img{
+width: 100%;
+height: auto;
+object-fit: cover;
+flex-shrink: 0;
+}
+
+.blockOneHeight{
+display: flex;
+max-width: 97%;
+height: 31%;
+}
+
+.blockOneHeight img{
+width: 100%;
+height: auto;
+object-fit: scale-down;
+flex-shrink: 0;
+
+}
+
+.blockHalf{
+display: flex;
+max-width: 47.5%;
+height: 31%;
+}
+
+.blockHalf img{
+    width: 100%;
+    height: auto;
+    object-fit: scale-down;
+
+}
+
+.blockHeight{
+display: flex;
+min-width: 95%;
+height: 65%;
+}
+
+.blockHeight img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    flex-shrink: 0;
+
+}
+
 
